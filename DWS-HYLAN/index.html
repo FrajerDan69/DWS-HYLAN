@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h2>ukol 1</h2>
+        <div class="ukool">
+            <button id="first" onclick="showText()">klikni na mě</button>
+        </div>
+
+        <div class="Ukol">
+            <h2>ukol 2</h2>
+            <button id="myButton">Klikni na mě</button>
+        </div>
+
+        
+
+        <div class="ukol">
+            <h2>ukol 5</h2>
+            <input type="text" id="nameinput" placeholder="zadej svoje jmeno"/>
+            <button id="greenbutton" onclick="greetUser()">pozdrav</button>
+            <div id="greetingmessage" class="greeting"></div>
+        </div>
+
+        <br>
+        <p id="finaltime"></p>
+        <button id="time" onclick="showTime()">klikni a budes vedet kolik je</button>
+
+        <p id="finaldate"></p>
+        <button id="date" onclick="showDate()">klikni a budes vedet jake je datum</button>
+        <br>
+
+        
+        <h2>tady se ti po kliknutí přičtě číslo 3</h2>
+    
+        <input type="number" id="cislo" placeholder="Zadejte číslo">
+        
+        <button id="pridejTriBtn">Přidat 3</button>
+        
+        <p id="vysledek"></p>
+
+        <h2>Sčítání dvou čísel</h2>
+
+    <input type="number" id="number1" placeholder="Zadejte první číslo">
+    <input type="number" id="number2" placeholder="Zadejte druhé číslo">
+    <button onclick="soucetCisel()">Sečti</button>
+
+    <p id="vysledek"></p>
+
+    <h2>najeď na obrázek a ten se zvětší</h2>
+
+    <img id="myImage" src=kocur.jpg  >   
+
+    <h2>tohle ja task manager</h2>
+
+    <input type="text" id="taskInput" placeholder="Zadejte úkol">
+    <button onclick="addTask()">Přidat</button>
+
+    <ul id="taskList"></ul>
+
+
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

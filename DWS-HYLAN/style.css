@@ -1,0 +1,48 @@
+body {
+    font-family:arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.192);
+}    
+
+.ukool{
+    gap: 20px;
+    display: grid;
+    width: 100%;
+    max-width: 800;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ukol{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border:2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 8px 4px rgba(rgb(241, 247, 255), green, blue, alpha);
+}
+
+button{
+    border:none;
+    color:cornflowerblue;
+    cursor:pointer;
+    padding: 10px 15px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+greeting{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#text, #ukoltitle{
+    display: none;
+}
